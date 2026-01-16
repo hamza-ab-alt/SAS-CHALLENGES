@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viator</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+  <nav class="navigation" aria-label="Main navigation">
+
+    <div class="bar">
+      <div class="logo">
+        <img src="Viator_logo.png" alt="Viator company logo">
+        <p class="soussrc">a Tripadvisor company</p>
+      </div>
+
+      <label for="discover" class="visually-hidden">Discover menu</label>
+      <select id="discover" class="discover">
+        <option disabled selected>Discover</option>
+      </select>
+    </div>
+
+    <div class="icons">
+      <button aria-label="Change language">
+        <img src="icon-languag.webp" alt="">
+      </button>
+
+      <button aria-label="Rewards">
+        <img src="rewards-icon.webp" alt="">
+      </button>
+
+      <button aria-label="User profile">
+        <img src="user_icon.webp" alt="">
+      </button>
+    </div>
+
+  </nav>
+</header>
+
+<main>
+
+  <section class="slide" aria-labelledby="hero-title">
+    <div class="container">
+      <h1 id="hero-title">Do more with Viator</h1>
+      <p>Plan better with 300,000+ travel experiences.</p>
+    </div>
+
+    <form class="search" role="search">
+      <label for="where" class="visually-hidden">Destination</label>
+      <input id="where" type="text" placeholder="Where to?" />
+
+      <label for="when" class="visually-hidden">Date</label>
+      <input id="when" type="text" placeholder="When?" />
+
+      <button aria-label="Search experiences">
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+      </button>
+    </form>
+  </section>
+
+  <section class="why-viator" aria-labelledby="why-title">
+    <div class="cont">
+      <h2 id="why-title">Why book with Viator?</h2>
+
+      <div class="parties">
+
+        <article class="partie">
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
+          <h3>24/7 customer support</h3>
+          <p>No matter the time zone, we're here to help.</p>
+        </article>
+
+        <article class="partie">
+          <i class="fa-solid fa-parachute-box" aria-hidden="true"></i>
+          <h3>Earn rewards</h3>
+          <p>Explore, earn, redeem, and repeat.</p>
+        </article>
+
+        <article class="partie">
+          <i class="fa-regular fa-star" aria-hidden="true"></i>
+          <h3>Millions of reviews</h3>
+          <p>Book with confidence.</p>
+        </article>
+
+        <article class="partie">
+          <i class="fa-solid fa-calendar-days" aria-hidden="true"></i>
+          <h3>Plan your way</h3>
+          <p>Free cancellation & pay later.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
