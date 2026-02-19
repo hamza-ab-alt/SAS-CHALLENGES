@@ -1,11 +1,11 @@
 const prompt = require("prompt-sync")();
-function compterOccurrences() {
 arr = [];
 count = 0;
 for (let i = 0; i < 10; i++) {
   let n = Number(prompt("entrez un nombre n "));
   arr.push(n);
 }
+function compterOccurrences() {
 let c = Number(prompt(" entrez le nombre voud vouler rechercher "));
   for (i = 0; i < arr.length; i++) {
     if (c == arr[i]) {
